@@ -3,3 +3,6 @@ terraform.tfstate
 terraform.tfstate.backup
 .terraform
 venv
+!lambda_dist_pkg
+lambda_dist_pkg/*
+!lambda_dist_pkg/lambda_function.py
